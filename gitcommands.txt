@@ -3,3 +3,6 @@ git branch
 git branch -b <branch name>
 git push
 git push --set-upstream origin rajesh
+git fetch
+git checkout branchname
+git beanch branchname
