@@ -1,3 +1,37 @@
+1.Setup and Configuration
+git config --global user.name "Your Name" → Set your Git username
+git config --global user.email "your.email@example.com" → Set your Git email
+2. Repository Management
+git init → Initialize a new Git repository
+git clone <repo_url> → Clone an existing repository
+git remote add origin <repo_url> → Link local repo to a remote repo
+3. Tracking Changes
+git status → Show current changes
+git add <file> → Stage a specific file
+git add . → Stage all changes
+git commit -m "Commit message" → Commit changes
+4. Branching and Merging
+git branch → List branches
+git branch <branch_name> → Create a new branch
+git checkout <branch_name> → Switch to another branch
+git checkout -b <branch_name> → Create and switch to a new branch
+git merge <branch_name> → Merge a branch into the current one
+5. Pushing and Pulling
+git push origin <branch_name> → Push changes to GitHub
+git pull origin <branch_name> → Pull latest changes from GitHub
+6. Undoing Changes
+git reset --soft HEAD~1 → Undo the last commit but keep changes staged
+git reset --hard HEAD~1 → Undo the last commit and discard changes
+git revert <commit_id> → Revert a commit (creates a new commit that undoes changes)
+7. Viewing History
+git log → View commit history
+git log --oneline → View commit history in a single line format
+8. Stashing Changes
+git stash → Save changes without committing
+git stash pop → Reapply stashed changes
+
+
+
 git add .
 git branch
 git branch -b <branch name>
